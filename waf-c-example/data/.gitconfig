@@ -1,0 +1,46 @@
+[user]
+        email = me@mydomain.org
+        name = MonPrénom MonNom
+
+[core]
+whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+#pager = less -i
+#editor = vim
+
+[alias]
+sh = show
+st = status
+ci = commit
+br = branch
+co = checkout
+df = diff -M -w
+lo = log --graph --all --decorate --date-order
+pull = pull -t
+root = !pwd -P
+
+[color]
+branch = auto
+diff = auto
+status = auto
+
+[color "branch"]
+current = blue reverse
+local = blue
+remote = green
+
+[color "diff"]
+meta = cyan bold
+frag = blue bold
+old = red bold
+new = green bold
+
+[color "status"]
+added = yellow
+changed = green
+untracked = cyan
+
+[color]
+ui = true
+
+[svn]
+        rmdir = true
