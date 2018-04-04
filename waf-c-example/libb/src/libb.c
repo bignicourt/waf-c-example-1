@@ -25,6 +25,13 @@ void libb_howareyou() {
   fprintf(stdout, "%s\n", "about to say howareyou from liba... [done]");
 
   fprintf(stdout, "%s\n", "howareyou from libb");
+
+void libb_happy() {
+  fprintf(stdout, "%s\n", "about to say happy from liba...");
+  liba_happy();
+  fprintf(stdout, "%s\n", "about to say happy from liba... [done]");
+
+  fprintf(stdout, "%s\n", "happy from libb");
 }
 
 /* EOF */

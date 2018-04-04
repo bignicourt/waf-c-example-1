@@ -7,4 +7,6 @@ void libb_goodbye(void);
 
 void libb_howareyou(void);
 
+void libb_happy(void);
+
 #endif /* !LIBB_LIBB_H */
