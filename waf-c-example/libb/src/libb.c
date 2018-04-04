@@ -19,4 +19,12 @@ void libb_goodbye() {
   fprintf(stdout, "%s\n", "goodbye from libb");
 }
 
+void libb_howareyou() {
+  fprintf(stdout, "%s\n", "about to say howareyou from liba...");
+  liba_howareyou();
+  fprintf(stdout, "%s\n", "about to say howareyou from liba... [done]");
+
+  fprintf(stdout, "%s\n", "howareyou from libb");
+}
+
 /* EOF */
